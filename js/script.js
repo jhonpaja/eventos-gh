@@ -12,3 +12,17 @@ function mostrarListadoEventos(nroPagina){
         }
     });
 }
+
+function detalleEvento(id){
+    console.log('detalleEvento()');
+    $.ajax({
+        type: "POST",
+        url: "vistas/detalleEvento.php",
+        data : {
+            "id": id
+        },
+        success:function(r){
+            $('#main-container').html(r);
+        }
+    });
+}

@@ -1,0 +1,1 @@
+<h3>Detalle Evento</h3><hr>

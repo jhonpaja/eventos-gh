@@ -4,7 +4,7 @@
     <h1 class="display-5 fw-bold" style="color: white; text-shadow: 0 0 0.2em #000, 0 0 0.2em #FFF,
 		0 0 0.2em #FFF">Kidush Hashem</h1>
     <p class="col-md-8 fs-4" style="color: white; text-shadow: 0 0 0.2em #000, 0 0 0.2em #FFF, 0 0 0.2em #FFF">Desde México, el grupo musical de la universidad de montemorellos viene a deleitarnos con su música. Este sábado 13 de mayo a las 8:00 pm, no puedes faltar!!!</p>
-    <button class="btn btn-primary btn-lg" type="button">Mas información</button>
+    <button class="btn btn-primary btn-lg" type="button" onclick="detalleEvento(1);">Mas información</button>
     </div>
 </div>
 
